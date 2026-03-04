@@ -1,46 +1,37 @@
-# IDE Settings
-.idea/
-.eclipse/
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Build Files
-target/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# System Files
-.DS_Store
-Thumbs.db
-Desktop.ini
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Dependency Directories
-bower_components/
-node_modules/
-
-# Environment Files
-.env
-application.properties placeholder=
-application.yml placeholder=
-application.properties.example
-
-# Logs
-*.log
-*.txt
-logs/
-
-# Build Tools
-.gradle/
-.m2/
-
-# Testing
-test-reports/
-coverage/
-
-# Temporary Files
-*.swp
-*.tmp
-*~
-.\#*
-
-# Backup Files
-*.bak
+### VS Code ###
+.vscode/
