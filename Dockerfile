@@ -1,5 +1,5 @@
 # ---------- BUILD STAGE ----------
-FROM gradle:8.7-jdk21 AS builder
+FROM gradle:9-jdk21 AS builder
 
 WORKDIR /app
 
